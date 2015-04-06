@@ -10,7 +10,7 @@ set :scm, :git
 
 task :staging do
   set :user,      "www"
-  set :domain,    "craftworks.enspiral.info"
+  set :domain,    "cobudgetstaging.metadevfoundation.org"
   set :branch,    "master"
   set :rails_env, "staging"
   set :deploy_to, "/home/#{user}/#{application.gsub('-','/')}/"
@@ -22,7 +22,7 @@ task :staging do
 end
 task :production do
   set :user,      "cobudget"
-  set :domain,    "cobudget.enspiral.com"
+  set :domain,    "cobudget.metadevfoundation.org"
   set :branch,    "production"
   set :rails_env, "production"
   set :deploy_to, "/home/#{user}/api/"
