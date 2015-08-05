@@ -45,3 +45,7 @@ bundle exec rails s
 ```
 bundle exec rspec
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/metadevfoundation/cobudget-api/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
